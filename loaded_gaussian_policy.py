@@ -1,6 +1,5 @@
 import numpy as np
 
-# from .base_policy import BasePolicy
 from torch import nn
 import torch
 import pickle
@@ -63,8 +62,6 @@ class LoadedGaussianPolicy(nn.Module):
             np.maximum(0, obsnorm_meansq - np.square(obsnorm_mean)))
         print('obs', obsnorm_mean.shape, obsnorm_stdev.shape)
 
-        # self.obs_norm_mean = nn.Parameter(from_numpy(obsnorm_mean))
-        # self.obs_norm_std = nn.Parameter(from_numpy(obsnorm_stdev))
         self.obs_norm_mean = from_numpy(obsnorm_mean)
         self.obs_norm_std = from_numpy(obsnorm_stdev)
         self.hidden_layers = nn.ModuleList()
