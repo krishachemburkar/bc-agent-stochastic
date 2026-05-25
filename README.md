@@ -81,7 +81,7 @@ The plot below shows the improvement of DAgger policies across iterations compar
 ## Behavior Cloning Policy
 
 <p align="center">
-  <img src="videos_bc_HalfCheetah/bc.gif" width="700" height="400"/>
+  <img src="videos_bc_HalfCheetah/bc.gif" width="700" height="500"/>
 </p>
 
 ---
@@ -89,7 +89,7 @@ The plot below shows the improvement of DAgger policies across iterations compar
 ## DAgger Policy
 
 <p align="center">
-  <img src="videos_dagger_HalfCheetah/dagger.gif" width="700"/>
+  <img src="videos_dagger_HalfCheetah/dagger.gif" width="700" height="500"/>
 </p>
 
 ---
