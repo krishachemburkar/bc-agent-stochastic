@@ -30,7 +30,9 @@ Behavior Cloning treats imitation learning as a supervised learning problem.
 
 The policy learns to map states to expert actions:
 
-\[\pi_\theta(a|s)\]
+$$
+\pi_\theta(a \mid s)
+$$
 
 using expert trajectory datasets.
 
@@ -81,7 +83,7 @@ The plot below shows the improvement of DAgger policies across iterations compar
 ## Behavior Cloning Policy
 
 <p align="center">
-  <img src="videos_bc_HalfCheetah/bc.gif" width="700" height="500"/>
+  <img src="videos_bc_HalfCheetah/bc.gif" width="600" height="500"/>
 </p>
 
 ---
@@ -89,7 +91,7 @@ The plot below shows the improvement of DAgger policies across iterations compar
 ## DAgger Policy
 
 <p align="center">
-  <img src="videos_dagger_HalfCheetah/dagger.gif" width="700" height="500"/>
+  <img src="videos_dagger_HalfCheetah/dagger.gif" width="600" height="500"/>
 </p>
 
 ---
