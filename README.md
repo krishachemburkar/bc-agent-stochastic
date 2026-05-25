@@ -134,9 +134,9 @@ The dataset contains:
 
 The BC policy is trained using supervised learning with MSE loss:
 
-\[
-\mathcal{L} = ||a_{expert} - a_{predicted}||^2
-\]
+$$
+\mathcal{L} = \|a_{\text{expert}} - a_{\text{predicted}}\|_2^2
+$$
 
 ---
 
